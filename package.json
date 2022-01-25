@@ -1,9 +1,12 @@
 {
   "name": "cmp3",
   "private": true,
+  "homepage": "https://aasim-syed.github.io/cmp3",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy":"gh-pages -d build",
+    "predeploy":"npm run build",
     "start": "next start",
     "lint": "next lint"
   },
